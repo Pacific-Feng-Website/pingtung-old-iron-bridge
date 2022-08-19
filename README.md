@@ -1,1 +1,0 @@
-# pingtung-old-iron-bridge
