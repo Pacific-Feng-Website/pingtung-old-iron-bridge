@@ -3,7 +3,7 @@
 	font-family: 'Noto Sans TC', sans-serif ;
 }
 
-nav header, #mainContent h1, #mainContent h2, #selfIntroSide p, #relatedPost h4, #subscriptionBoard h4,
+nav header, #mainContent h1, #mainContent h2, #mainContent p, #selfIntroSide p, #relatedPost h4, #subscriptionBoard h4,
 #commemt-box-topic h4, #self-intro-bottom-name h3, #self-intro-bottom-intro p{
 	font-family: 'Noto Serif TC', serif !important;
 }
@@ -603,6 +603,7 @@ nav .icon-list{
 	letter-spacing: 3px;
 	cursor: pointer;
 	margin-bottom: 15px;
+	margin-top: 5px;
 }
 
 #post-time:hover{
@@ -663,6 +664,17 @@ nav .icon-list{
 	opacity: 0.8;
 }
 
+#mainContent iframe{
+	width: 75%;
+	height: 315px;
+}
+
+#article .bottom-word{
+	display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
 
 
 @media only screen and (max-width: 1067px){
@@ -692,6 +704,13 @@ nav .icon-list{
 		font-size: 13px;
 		line-height: 13px;
 		letter-spacing: 2px;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	#mainContent iframe{
+		width: 95%;
+		height: 315px;
 	}
 }
 
